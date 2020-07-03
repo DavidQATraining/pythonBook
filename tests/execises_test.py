@@ -43,6 +43,9 @@ from exercises import beginnerExercises
 # assert beginnerExercises.lists(-9, 2, 3, 4, 5, 10, 9, 8, 7, 6) == -9
 
 # recursionlists
-assert beginnerExercises.recursionLists(1, 2, 3, 4, 5, 10, 9, 8, 7, 6) == "1, 2, 3, 4, 5, 10, 9, 8, 7, 6"
-assert beginnerExercises.recursionLists(-9, 2, 3, 4, 5, 10, 9, 8, 7, 6) == "-9, 2, 3, 4, 5, 10, 9, 8, 7, 6"
+# assert beginnerExercises.recursionLists(1, 2, 3, 4, 5, 10, 9, 8, 7, 6) == "1, 2, 3, 4, 5, 10, 9, 8, 7, 6"
+# assert beginnerExercises.recursionLists(-9, 2, 3, 4, 5, 10, 9, 8, 7, 6) == "-9, 2, 3, 4, 5, 10, 9, 8, 7, 6"
 
+# recursionlists
+assert beginnerExercises.recursionLists1() == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 100]
+#assert beginnerExercises.recursionLists1(-9, 2, 3, 4, 5, 10, 9, 8, 7, 6) == "-9, 2, 3, 4, 5, 10, 9, 8, 7, 6"

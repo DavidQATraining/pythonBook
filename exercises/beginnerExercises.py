@@ -62,4 +62,12 @@ def recursionLists(num1, num2, num3, num4, num5, num6, num7, num8, num9, num10):
     str1 = str1 + str(list1[9])
     return str1
 
+def recursionLists1():
+    list1 = []
+    list2 = []
+    for i in range(1, 11):
+        list1.append(i)
+    for n in list1:
+        list2.append((list1[n])*10)
 
+    return list1, list2
